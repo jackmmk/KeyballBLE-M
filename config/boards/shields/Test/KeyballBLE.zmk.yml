@@ -3,6 +3,6 @@ id: KeyballBLE-M
 name: KeyballBLE-M
 type: shield
 url: https://github.com/Dist16384/KeyballBLE-M.git
-requires: [xiao_ble]
+requires: [seeeduino_xiao_ble]
 features:
   - keys

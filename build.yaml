@@ -18,15 +18,15 @@
 #
 ---
 include:
- - board: seeeduino_xiao_ble/zmk
+ - board: xiao_ble//zmk
    shield: KeyballBLE_R
    snippet: studio-rpc-usb-uart
- - board: seeeduino_xiao_ble/zmk
+ - board: xiao_ble//zmk
    shield: KeyballBLE_R raw_hid_adapter
    snippet: studio-rpc-usb-uart
    cmake-args: -DCONFIG_KEYBALL_TRAINER_RAW_HID=y
    artifact-name: KeyballBLE_R_trainer_raw_hid
- - board: seeeduino_xiao_ble/zmk
+ - board: xiao_ble//zmk
    shield: KeyballBLE_L
- - board: seeeduino_xiao_ble/zmk
+ - board: xiao_ble//zmk
    shield: settings_reset

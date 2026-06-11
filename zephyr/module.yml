@@ -1,4 +1,6 @@
 name: KeyballBLE-M
 build:
+  cmake: .
+  kconfig: Kconfig
   settings:
     board_root: config

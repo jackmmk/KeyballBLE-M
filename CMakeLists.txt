@@ -1,0 +1,1 @@
+target_sources_ifdef(CONFIG_KEYBALL_TRAINER_RAW_HID app PRIVATE src/keyball_trainer_raw_hid.c)

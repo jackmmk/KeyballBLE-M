@@ -1,0 +1,13 @@
+menuconfig KEYBALL_TRAINER_RAW_HID
+    bool "Keyball trainer raw HID telemetry"
+    depends on RAW_HID
+    help
+      Sends ZMK physical key position events to the companion trainer app.
+
+if KEYBALL_TRAINER_RAW_HID
+
+config KEYBALL_TRAINER_RAW_HID_REPORT_SIZE
+    int
+    default 32
+
+endif

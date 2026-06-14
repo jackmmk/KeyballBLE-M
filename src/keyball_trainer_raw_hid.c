@@ -28,6 +28,10 @@
 #define KBTRAIN_TYPE_LAYER 2
 #define KBTRAIN_REPORT_SIZE 32
 
+#if KBTRAIN_REPORT_SIZE > CONFIG_RAW_HID_REPORT_SIZE
+#error "KBTRAIN_REPORT_SIZE must fit CONFIG_RAW_HID_REPORT_SIZE"
+#endif
+
 static void put_u32_le(uint8_t *buf, uint32_t value) {
     buf[0] = value & 0xFF;
     buf[1] = (value >> 8) & 0xFF;

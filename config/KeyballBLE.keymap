@@ -5,10 +5,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define MOUSE 4
-#define SCROLL 5
-#define NUM 6
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -74,7 +70,7 @@
 &ime_toggle       &kp Q             &kp W             &kp E             &kp R             &kp T             &kp Y             &kp U             &kp I             &kp O             &kp P             &kp ASTERISK
 &kp TAB               &kp A                 &kp S                 &kp D                 &kp F                 &kp G                 &mkp MCLK             &kp UP_ARROW          &kp H                 &kp J                 &kp K                 &kp L                 &kp MINUS             &kp LEFT_PARENTHESIS
 &kp LSHFT         &kp Z             &kp X             &kp C             &kp V             &kp B             &kp LEFT_BRACKET  &kp DOWN_ARROW    &kp N             &kp M             &kp COMMA         &kp DOT           &kp FSLH          &kp RSHFT
-&kp LCTRL         &kp LGUI          &kp LALT          &lt 6 ESC         &kp LEFT_ARROW    &lt 2 SPACE       &kp RIGHT_ARROW   &kp BACKSPACE     &lt 1 ENTER       &kp DEL           &kp RCTRL
+&kp LCTRL         &kp LGUI          &kp LALT          &lt 2 ESC         &kp LEFT_ARROW    &lt 2 SPACE       &kp RIGHT_ARROW   &kp BACKSPACE     &lt 1 ENTER       &kp DEL           &kp RCTRL
             
             
             
